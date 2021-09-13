@@ -4,6 +4,7 @@ import router from './router'
 import WeChatTitle from 'vue-wechat-title'
 import VueAxios from 'vue-axios'
 import axios from 'axios'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 const app = createApp(App)
 
