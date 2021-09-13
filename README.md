@@ -1,24 +1,4 @@
-# vue-practice
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<h1>程式架構做到最大的沿用性、維護性</h1>
+<h3>程式碼盡量簡明扼要，在vue專案開發中，重複的片段程式碼可以多利用元件系統與mixin的方式撰寫來精簡程式碼，在scss中可使用巢狀結構使觀看者能一目了然程式碼架構，但仍然要避免過度的巢狀</h3>
+<h3>在需要命名的地方(參數、函式、變數)盡量符合語意，另外，較複雜的程式碼能使用註釋幫助理解</h3>
+<h3>在公司或開發團隊中，制定明確的程式碼規範，使每個人都使用相同的方式與風格撰寫程式碼，這樣能確保每個人都看得懂彼此撰寫的程式碼，在維護程式碼與Bug修復上可以增加團隊的溝通與執行效率</h3>
